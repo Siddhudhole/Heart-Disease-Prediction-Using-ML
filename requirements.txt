@@ -1,0 +1,12 @@
+numpy 
+pandas 
+python-dotenv
+scikit-learn
+optuna 
+mlflow
+dvc 
+dvc_s3 
+dagshub
+streamlit 
+mysql-connector-python
+-e . 
