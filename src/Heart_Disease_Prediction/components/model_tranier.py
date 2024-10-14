@@ -18,7 +18,7 @@ from src.Heart_Disease_Prediction.utils import evaluate_model
 @dataclass 
 class ModelTrainerConfig:
     model_path:str = os.path.join('artifacts/models','model.pkl')
-
+    
 class ModelTrainer():
     def __init__(self):
         self.config = ModelTrainerConfig()
@@ -46,7 +46,7 @@ class ModelTrainer():
                             accuracy = accuracy_score(y_true=y_valid,y_pred=y_preds)
                             return accuracy
                 study = optuna.create_study(direction='maximize')
-                study.optimize(objective, n_trials=20)
+                study.optimize(objective, n_trials=2)
                 logging.info('Best trial: score {}, params: {}'.format(study.best_value, study.best_params))
                 model = RandomForestClassifier(n_estimators=study.best_params['n_estimators'], 
                                                             criterion=study.best_params['criterion'], 
@@ -64,16 +64,9 @@ class ModelTrainer():
                 mlflow.log_metric("accuracy", accuracy)
                 mlflow.log_metric("precision", precision)
                 mlflow.log_metric("recall", recall)
-                    # Log the sklearn model and register as version 1
-                signature = infer_signature(x[0])
-                mlflow.sklearn.log_model(
-                    sk_model=model,
-                    artifact_path="sklearn-model",
-                    registered_model_name="heart-disease-random-forest-clf-model",
-                )
-                logging.info('Model register on remote server successfully')
-                return model
-
+                save_model(model,self.config.model_path)
+                logging.info('Model save successfully')
+                return model 
         except Exception as e:
             logging.error('Error getting model trainer file'+str(e))
             raise CustomException(e,sys)
