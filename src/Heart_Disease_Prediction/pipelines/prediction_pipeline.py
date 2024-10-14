@@ -11,8 +11,8 @@ from src.Heart_Disease_Prediction.logger import logging
 
 @dataclass
 class PredictionConfig:
-    model = load_model(Path("artifacts\models\model.pkl"))
-    processor = load_model(Path("artifacts\models\processor.pkl")) 
+    model = load_model(os.path.join("artifacts","models\model.pkl"))
+    processor = load_model(os.path.join("artifacts","models\processor.pkl")) 
 
 class Prediction:
     def __init__(self):
