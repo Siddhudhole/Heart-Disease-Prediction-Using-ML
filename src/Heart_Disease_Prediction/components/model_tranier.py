@@ -46,7 +46,7 @@ class ModelTrainer():
                             accuracy = accuracy_score(y_true=y_valid,y_pred=y_preds)
                             return accuracy
                 study = optuna.create_study(direction='maximize')
-                study.optimize(objective, n_trials=2)
+                study.optimize(objective, n_trials=20)
                 logging.info('Best trial: score {}, params: {}'.format(study.best_value, study.best_params))
                 model = RandomForestClassifier(n_estimators=study.best_params['n_estimators'], 
                                                             criterion=study.best_params['criterion'], 

@@ -45,8 +45,8 @@ def save_model(obj,file_path):
 def load_model(file_path):
     try :
         logging.info('Loading model from '+str(file_path))
-        model = pickle.load(open(file_path, 'rb')) 
-        logging.info('Model loaded successfully') 
+        model = pickle.load(open(file_path, 'rb'))
+        logging.info('Model loaded successfully')  
         return model
     except Exception as e:
         raise CustomException(e,sys)

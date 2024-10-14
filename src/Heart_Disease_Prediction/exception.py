@@ -1,5 +1,4 @@
-import sys
-from src.Heart_Disease_Prediction.logger import logging
+import sys 
 
 def error_message_detail(error,error_detail:sys):
     '''Return Error message for error details'''
