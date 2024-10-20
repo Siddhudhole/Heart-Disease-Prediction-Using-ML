@@ -7,7 +7,7 @@ import streamlit as st
 from src.Heart_Disease_Prediction.pipelines.prediction_pipeline import Prediction  
 
 
-st.markdown("<h1 style='text-align: center; color: red;'>Heart Disease Detector</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: red;'>Heart Disease Prediction</h1>", unsafe_allow_html=True)
 st.markdown('----------------------------------------------------------------') 
 
 
