@@ -16,7 +16,7 @@ This project leverages  machine learning techniques to predict the risk of heart
 
 # Installation
 Run Commnads 
-- git clone
+- git clone https://github.com/Siddhudhole/Heart-Disease-Prediction-Using-ML.git
 
 - pip install -r requirements.txt
 
