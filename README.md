@@ -1,7 +1,7 @@
 # Heart Disease Prediction Using ML 
 
 # Overview
-This project leverages advanced machine learning techniques to predict the risk of heart disease. Utilizing scikit-learn for model building and pandas for data manipulation, we ensure high accuracy and reliability. MLflow is employed for experiment tracking and model management, while Optuna is used for hyperparameter optimization. The project includes an interactive user interface built with Streamlit, providing real-time predictions and visualizations.
+This project leverages  machine learning techniques to predict the risk of heart disease. Utilizing scikit-learn for model building and pandas for data manipulation, we ensure high accuracy and reliability. MLflow is employed for experiment tracking and model management, while Optuna is used for hyperparameter optimization. The project includes an interactive user interface built with Streamlit, providing real-time predictions and visualizations.
 
 # Features
 - Data Preprocessing: Efficiently handle and clean data using pandas.
@@ -25,14 +25,14 @@ cd heart-disease-prediction
 pip install -r requirements.txt
 
 # Usage
-Data Preparation: Load and preprocess the data.
+- Data Preparation: Load and preprocess the data.
 
-Training: Train the model with optimized hyperparameters.
+- Training: Train the model with optimized hyperparameters.
 
-Inference: Use the trained model to make predictions.
+- Inference: Use the trained model to make predictions.
 
-Visualization: Use the Streamlit interface for real-time visualizations.
+- Visualization: Use the Streamlit interface for real-time visualizations.
 
 
-License
+# License
 This project is licensed under the MIT License.
