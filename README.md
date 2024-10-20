@@ -23,7 +23,7 @@ This project leverages  machine learning techniques to predict the risk of heart
 #### 1) Clone Github Repository :
 
 
-        git clone https://github.com/Siddhudhole/Heart-Disease-Detector.git 
+        git clone https://github.com/Siddhudhole/Heart-Disease-Prediction-Using-ML.git
 
 #### 2) Create a new virtual environment:
 
