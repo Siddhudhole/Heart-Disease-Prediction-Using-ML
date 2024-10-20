@@ -47,14 +47,6 @@ This project leverages  machine learning techniques to predict the risk of heart
 
         streamlit run app.py 
 
-# Usage
-- Data Preparation: Load and preprocess the data.
-
-- Training: Train the model with optimized hyperparameters.
-
-- Inference: Use the trained model to make predictions.
-
-- Visualization: Use the Streamlit interface for real-time visualizations.
 
 # User Interface
 - Link https://heart-disease-prediction-using-ml-demo.streamlit.app/ 
