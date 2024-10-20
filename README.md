@@ -15,15 +15,10 @@ This project leverages  machine learning techniques to predict the risk of heart
 - User Interface: Build interactive UI with Streamlit for real-time predictions and visualizations.
 
 # Installation
- - git clone
- - pip install -r requirements.txt
+Run Commnads 
+- git clone
 
-bash
-
-Copy
-git clone https://github.com/your-repo/heart-disease-prediction.git
-cd heart-disease-prediction
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 # Usage
 - Data Preparation: Load and preprocess the data.
