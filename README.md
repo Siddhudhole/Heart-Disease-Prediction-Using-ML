@@ -15,10 +15,37 @@ This project leverages  machine learning techniques to predict the risk of heart
 - User Interface: Build interactive UI with Streamlit for real-time predictions and visualizations.
 
 # Installation
-Run Commnads 
-- git clone https://github.com/Siddhudhole/Heart-Disease-Prediction-Using-ML.git
 
-- pip install -r requirements.txt
+### Steps :
+
+### Run the following command :
+
+#### 1) Clone Github Repository :
+
+
+        git clone https://github.com/Siddhudhole/Heart-Disease-Detector.git 
+
+#### 2) Create a new virtual environment:
+
+
+        Conda create -p venv  python==3.9 -y 
+
+#### 3) Activate  virtual environment:
+
+
+        Conda activate ./venv 
+
+
+#### 4) Install the dependencies:
+
+
+        pip install -r requirements.txt  
+
+    
+#### 5) Run application :
+
+
+        streamlit run app.py 
 
 # Usage
 - Data Preparation: Load and preprocess the data.
