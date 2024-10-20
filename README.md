@@ -15,7 +15,8 @@ This project leverages  machine learning techniques to predict the risk of heart
 - User Interface: Build interactive UI with Streamlit for real-time predictions and visualizations.
 
 # Installation
- - Clone the repository and install the necessary packages:
+ - git clone
+ - pip install -r requirements.txt
 
 bash
 
