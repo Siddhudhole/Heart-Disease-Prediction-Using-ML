@@ -33,8 +33,6 @@ Inference: Use the trained model to make predictions.
 
 Visualization: Use the Streamlit interface for real-time visualizations.
 
-Contributing
-Contributions are welcome! Please follow the standard GitHub workflow for contributing to this project.
 
 License
 This project is licensed under the MIT License.
