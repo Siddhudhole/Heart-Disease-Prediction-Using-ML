@@ -34,7 +34,8 @@ pip install -r requirements.txt
 - Visualization: Use the Streamlit interface for real-time visualizations.
 
 # User Interface
-![image](https://github.com/user-attachments/assets/d7233bc1-2747-4977-93d7-46b1257f4179)
+![image](https://github.com/user-attachments/assets/d24861c1-61dc-4413-afa9-40a08c2bfe4b)
+
 
 
 # License
